@@ -1,7 +1,8 @@
 # Current Operator version
 VERSION ?= 0.0.2
 
-IMAGE_TAG_BASE ?= quay.io/redhat-sap-cop/hybris-operator
+#IMAGE_TAG_BASE ?= quay.io/redhat-sap-cop/hybris-operator
+IMAGE_TAG_BASE ?= quay.io/test/hybris-operator
 
 # Default bundle image tag
 BUNDLE_IMG ?= $(IMAGE_TAG_BASE)-bundle:v$(VERSION)
