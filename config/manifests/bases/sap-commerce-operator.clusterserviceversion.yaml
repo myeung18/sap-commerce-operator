@@ -4,7 +4,7 @@ metadata:
   annotations:
     alm-examples: '[]'
     capabilities: Basic Install
-    categories: Application
+    categories: Database
     description: Builds and runs SAP Commerce in OpenShift
     operators.operatorframework.io/builder: operator-sdk-v1.6.1+git
     operators.operatorframework.io/project_layout: go.kubebuilder.io/v2
@@ -196,10 +196,10 @@ spec:
   - name: SAP Commerce Operator
     url: https://github.com/redhat-sap/sap-commerce-operator
   maintainers:
-  - email: customerservice@redhat.com
+  - email: support@redhat.com
     name: Red Hat
   maturity: alpha
   provider:
-    name: Red Hat
+    name: Red Hat, Inc.
     url: https://www.redhat.com
   version: 0.0.0

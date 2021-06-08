@@ -42,7 +42,7 @@ metadata:
         }
       ]
     capabilities: Basic Install
-    categories: Application
+    categories: Database
     description: Builds and runs SAP Commerce in OpenShift
     operators.operatorframework.io/builder: operator-sdk-v1.6.1+git
     operators.operatorframework.io/project_layout: go.kubebuilder.io/v3
