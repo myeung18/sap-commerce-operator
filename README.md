@@ -9,3 +9,5 @@ This Operator will deploy an opinionated deployment of SAP Hybris, which is **no
 ## Documentation
 
 Instructions on how to deploy this Operator can be found [here](docs/README.md)
+
+--
